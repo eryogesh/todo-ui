@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  listsApiUrl: 'http://localhost:3000/v1/api/lists'
 };
