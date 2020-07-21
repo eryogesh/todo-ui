@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>
+    {{title}}
+</h1>
+
+<div mat-dialog-content>
+    <!-- <p>{{message}}</p> -->
+    <input type="text" [(ngModel)]="inputValue" placeholder="{{message}}" required>*
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="disableSubmit()">Submit</button>
+</div>

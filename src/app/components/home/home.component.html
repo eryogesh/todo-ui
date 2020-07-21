@@ -1,0 +1,8 @@
+<div class="list-container">
+    <div cdkDropListGroup>
+        <div class="todo-container column-container" *ngFor="let list of lists">
+            <app-list [list]="list" (changed)="onListChange()" (delete)="deleteList($event)"></app-list>
+        </div>
+    </div>
+</div>
+<button matTooltip="Add new list" (click)="addList()"><i class="material-icons">playlist_add</i></button>

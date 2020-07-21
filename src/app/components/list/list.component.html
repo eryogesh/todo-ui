@@ -1,0 +1,13 @@
+<div class="list" cdkDropList [cdkDropListData]="list?.cards" [cdkDropListConnectedTo]="connectedTo"
+    (cdkDropListDropped)="onDrop($event)">
+    <h2>{{list?.name}}</h2>
+    <mat-card *ngFor="let card of list?.cards" cdkDrag>
+        <mat-card-header>
+            <mat-card-title>{{card.name}}</mat-card-title>
+            <button matTooltip="Remove {{card.name}}" (click)="deleteCard(card.id)"><i
+                    class="material-icons">remove_circle_outline</i></button>
+        </mat-card-header>
+    </mat-card>
+</div>
+<button matTooltip="Add new card" (click)="addCard()"><i class="material-icons">add</i></button>
+<button matTooltip="Remove whole list" (click)="deleteList()"><i class="material-icons">delete_sweep</i></button>

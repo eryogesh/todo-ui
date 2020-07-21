@@ -1,0 +1,52 @@
+[
+    {
+      "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "name": "To Do",
+      "cards": [
+            {
+          "id": "bfe2d0ea-ad04-4f7d-a34a-448fd66f2536",
+          "name": "Angular"
+            },
+            {
+          "id": "aefdfbb9-df3a-47d4-bb1e-2fdc86919cfd",
+          "name": "Flexbox"
+            },
+            {
+          "id": "2ef56363-761c-4b1d-8bec-ed8bf4536512",
+          "name": "iOS"
+            },
+            {
+          "id": "ea5757ff-9482-45a7-9248-a916748f2acf",
+          "name": "Java"
+            }
+        ]
+    },
+    {
+      "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+      "name": "In Progress",
+      "cards": [
+            {
+          "id": "a1015f0a-a823-4c1c-bc54-67189b760d3d",
+          "name": "Android"
+            },
+            {
+          "id": "a80564e4-0c2d-46f8-b3f8-0d025839f776",
+          "name": "MongoDB"
+            }
+        ]
+    },
+    {
+      "id": "2c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d",
+      "name": "Done",
+      "cards": [
+            {
+          "id": "73db97ca-3a97-4506-a80b-ca17979096a0",
+          "name": "ARKit"
+            },
+            {
+          "id": "f9a6df16-3e94-4fbc-8c81-5dc824a88d50",
+          "name": "React"
+            }
+        ]
+    }
+]
